@@ -113,11 +113,7 @@ The platform is designed around five major capabilities:
 
 # System Architecture
 
-<div align="center">
 
-<img src="assets/drishti-technical-architecture.png" width="100%">
-
-</div>
 
 ### Seven-Layer Architecture
 
