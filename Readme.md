@@ -335,7 +335,6 @@ This allows the platform to distinguish contextual security events from routine 
 
 Instead of treating each camera as an isolated data source, Drishti is designed to correlate movement across connected cameras.
 
-```mermaid
 flowchart LR
     C1["CAM 01<br/>Detection"] --> T["Tracking & Re-ID"]
     C2["CAM 02<br/>Detection"] --> T
@@ -345,15 +344,14 @@ flowchart LR
 
     classDef cam fill:#EFF6FF,stroke:#3B82F6,color:#111827,stroke-width:2px;
     classDef track fill:#EEF2FF,stroke:#6366F1,color:#111827,stroke-width:2px;
-    classDef graph fill:#ECFDF5,stroke:#10B981,color:#111827,stroke-width:2px;
+    classDef movement fill:#ECFDF5,stroke:#10B981,color:#111827,stroke-width:2px;
     classDef context fill:#FFF7E6,stroke:#F59E0B,color:#111827,stroke-width:2px;
 
     class C1,C2,C3 cam;
     class T track;
-classDef graph  →  classDef movement
-class G graph   →  class G movement
+    class G movement;
     class X context;
-```
+
 
 The objective is to build a unified understanding of:
 
