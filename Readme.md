@@ -460,8 +460,6 @@ The operator receives the relevant context required to verify the event.
 
 ## Drishti AI Monitoring Dashboard
 
-<img src="assets/drishti-prototype-dashboard.png" width="95%">
-
 </div>
 
 ### Prototype demonstrates
@@ -689,19 +687,11 @@ Dristhi-AI/
 **Theme:** Blockchain & Cybersecurity  
 **Category:** Software  
 **Team:** Sudo -l  
-**Team ID:** T57
+**Team ID:** 137482
 
 </div>
 
----
-
-# Team
-
 <div align="center">
-
-### Sudo -l
-
-**Smart India Hackathon 2026**
 
 *Building Drishti AI — Intelligent Surveillance Through Existing Infrastructure*
 
