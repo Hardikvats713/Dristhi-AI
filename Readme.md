@@ -350,7 +350,8 @@ flowchart LR
 
     class C1,C2,C3 cam;
     class T track;
-    class G graph;
+classDef graph  →  classDef movement
+class G graph   →  class G movement
     class X context;
 ```
 
